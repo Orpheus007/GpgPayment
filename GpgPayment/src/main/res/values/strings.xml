@@ -1,0 +1,20 @@
+<!--
+  ~ /**
+  ~  * Created by orpheus(Saber Oueslati) of GPG on 10/20/21, 11:04 AM
+  ~  * Copyright (c) 2021 . All rights reserved.
+  ~  * Last modified 10/20/21, 10:24 AM
+  ~  */
+  -->
+
+<resources>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="no_payment_methods">Your merchant does not have any payment methods</string>
+    <string name="retry">Retry?</string>
+    <string name="refresh_list">Refresh List</string>
+    <string name="payment_methods">Payment Methods</string>
+    <string name="payment">Payment</string>
+    <string name="proceed_to_payment">Proceed To Payment</string>
+    <string name="please_select_a_payment_method">Select a payment method</string>
+    <string name="payment_successful">Payment successful!</string>
+</resources>

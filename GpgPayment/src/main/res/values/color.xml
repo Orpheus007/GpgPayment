@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ /**
+  ~  * Created by orpheus(Saber Oueslati) of GPG on 10/20/21, 1:53 PM
+  ~  * Copyright (c) 2021 . All rights reserved.
+  ~  * Last modified 10/20/21, 1:53 PM
+  ~  */
+  -->
+
+<resources>
+    <color name="main">#FF6D00</color>
+    <color name="white">#FFF</color>
+    <color name="disabled">#E1E1E1</color>
+    <color name="gray">#4CEAEAEA</color>
+</resources>

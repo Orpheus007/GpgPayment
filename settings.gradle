@@ -1,0 +1,19 @@
+/*
+ * *
+ *  * Created by orpheus(Saber Oueslati) of GPG on 10/20/21, 11:05 AM
+ *  * Copyright (c) 2021 . All rights reserved.
+ *  * Last modified 10/20/21, 9:27 AM
+ *
+ */
+
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        jcenter() // Warning: this repository is going to shut down soon
+    }
+}
+rootProject.name = "GpgPaymentExample"
+include ':app'
+include ':GpgPayment'

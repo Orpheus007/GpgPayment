@@ -1,0 +1,11 @@
+<!--
+  ~ /**
+  ~  * Created by orpheus(Saber Oueslati) of GPG on 10/20/21, 11:04 AM
+  ~  * Copyright (c) 2021 . All rights reserved.
+  ~  * Last modified 10/20/21, 9:21 AM
+  ~  */
+  -->
+
+<resources>
+    <string name="app_name">GpgPaymentExample</string>
+</resources>

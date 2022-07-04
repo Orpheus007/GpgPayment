@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/road_map"
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        android:id="@+id/paymentMethodListFragment"
+        android:name="com.gpg.gpgpayment.paymentMethodList.PaymentMethodListFragment"
+        android:label="fragment_payment_method_list"
+        tools:layout="@layout/fragment_payment_method_list">
+        <argument
+            android:name="params"
+            app:argType="com.gpg.gpgpayment.entities.PaymentParams" />
+        <action
+            android:id="@+id/action_paymentMethodListFragment_to_paymentFragment"
+            app:destination="@id/paymentFragment"
+            app:popUpTo="@id/paymentMethodListFragment"
+            app:popUpToInclusive="false" />
+    </fragment>
+    <fragment
+        android:id="@+id/paymentFragment"
+        android:name="com.gpg.gpgpayment.payment.PaymentFragment"
+        android:label="fragment_payment"
+        tools:layout="@layout/fragment_payment">
+        <argument
+            android:name="params"
+            app:argType="com.gpg.gpgpayment.entities.PaymentParamsFinal" />
+    </fragment>
+    <activity
+        android:id="@+id/paymentActivity"
+        android:name="com.gpg.gpgpayment.activity.PaymentActivity"
+        android:label="activity_payment"
+        tools:layout="@layout/activity_payment" />
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.gpg.gpgpayment.splash.SplashFragment"
+        android:label="fragment_splash"
+        tools:layout="@layout/fragment_splash">
+        <action
+            android:id="@+id/action_splashFragment_to_paymentMethodListFragment"
+            app:destination="@id/paymentMethodListFragment"
+            app:popUpTo="@id/road_map"
+            app:popUpToInclusive="true" />
+    </fragment>
+</navigation>
