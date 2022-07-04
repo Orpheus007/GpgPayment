@@ -15,4 +15,3 @@ Step 2. Add the dependency
 	dependencies {
 	        implementation 'com.github.Orpheus007:GpgPayment:Tag'
 	}
-Share this release:
