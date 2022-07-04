@@ -55,8 +55,8 @@ class MainActivity : AppCompatActivity() {
             val signature = "${numSite}${pass}${orderId}${amount}TND"
 
             val paymentParams = PaymentParams(
-                numSite = "March222",
-                password = "tk#qvD70",
+                numSite = "",
+                password = "",
                 orderId = orderId,
                 customerEmail = "saber.jerda@gmail.com",
                 customerLastName = "haithem",
@@ -73,13 +73,13 @@ class MainActivity : AppCompatActivity() {
                 paymentType = true,
                 orderProducts = "Test App Mobile",
                 signature = signature,
-                vad = "311400003",
-                terminal = "001",
+                vad = "",
+                terminal = "",
                 tauxConversion = null,
                 batchNumber = null,
                 merchantReference = null,
-                merchantUserName = "MAR00003",
-                merchantPassword = "@Gpg2019"
+                merchantUserName = "",
+                merchantPassword = ""
             )
 
             val intent = Intent(this, PaymentActivity::class.java)
