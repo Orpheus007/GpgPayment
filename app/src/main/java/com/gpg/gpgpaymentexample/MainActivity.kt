@@ -48,8 +48,8 @@ class MainActivity : AppCompatActivity() {
         binding.click.setOnClickListener {
             val orderId = System.currentTimeMillis().toString()
             val amount = 10000
-            val numSite = "March222"
-            val pass = "tk#qvD70"
+            val numSite = ""
+            val pass = ""
             val lang = "Fr"
             val typeTransaction = "1"
             val signature = "${numSite}${pass}${orderId}${amount}TND"
