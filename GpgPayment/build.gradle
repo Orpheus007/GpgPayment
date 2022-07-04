@@ -78,8 +78,8 @@ afterEvaluate {
             release(MavenPublication) {
                 from components.release
 
-                groupId = 'com.github.orpheus007'
-                artifactId = 'gppayment'
+                groupId = 'com.github.Orpheus007'
+                artifactId = 'GpgPayment'
                 version = '0.1'
             }
         }
